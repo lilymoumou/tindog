@@ -1,0 +1,106 @@
+#title{background-color: #ff4c68;
+color: #fff;}
+
+body{font-family: 'Montserrat';
+font-weight: 500;
+}
+p{color: #8f8f8f;
+font-weight: 500;}
+
+h2{ font-family: 'Montserrat';
+font-weight: 700;
+font-size: 3rem;
+line-height: 1.5;}
+
+.meetnew{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight:900;
+  line-height: 1.5;
+}
+.container-fluid{padding: 3% 15% 7%;}
+/* navbar*/
+.navbar{padding-bottom: 4.5rem;}
+.nav-item{padding: 0 18px;}
+.navbar-brand{font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+.nav-link{font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* Download button*/
+.Download-button{margin: 5% 3% 5% 0;}
+/* title image*/
+.title-image{width: 20%;
+transform: rotate(25deg);
+position: absolute;
+
+}
+
+/*Feature*/
+.fas{
+  color: #ef8172;
+
+margin-bottom: 1rem;}
+.fas:hover{color:#ff4c68 ;}
+.features-title{font-family: 'Montserrat';
+  font-weight:700;}
+.feature-box{text-align: center;
+  padding: 5%;
+ }
+ #features{padding: 7% 15%;
+ background-color: #fff;
+ position: relative;
+}
+
+
+/*testimonial*/
+#testimonials{
+text-align: center;
+background-color:#ef8172;
+color: #fff;}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{padding: 7% 15%;}
+#press{text-align: center;
+background-color:#ef8172;
+padding-bottom: 3%;}
+.press-log{width: 15%;
+margin: 20px 20px 50px;}
+
+/*pricing section*/
+#pricing{padding: 100px;
+text-align: center;}
+.pricing-column{padding: 3% 2%;}
+.pricing-title{font-weight: 700;}
+
+@media (max-width:1028px) {
+#title{text-align: center;}
+  .title-image{
+    position: static;
+  transform: rotate(0);
+width: 60%}
+
+}
+/* Call to Action */
+
+#cta{background-color: #ff4c68;
+color: #fff;
+text-align: center;
+padding: 7% 15%;
+}
+.cta-title{font-weight: 800;
+font-size: 3rem;
+line-height: 1.5;}
+/* footer */
+#footer{background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-footer{margin: 20px 10px;}
